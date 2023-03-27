@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora em GBps</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="modo" onclick="toggleDarkMode()">Change theme</button>
+
+    <h1>Calculadora em GBps</h1>
+    <form>
+      <label>
+        Valor 1 (MB):
+        <input type="text" id="valor1" />
+      </label>
+      <label>
+        Valor 2 (MB):
+        <input type="text" id="valor2" />
+      </label>
+      <button type="button" onclick="somar()">Somar</button>
+    </form>
+    <h2 id="resultado"></h2>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
